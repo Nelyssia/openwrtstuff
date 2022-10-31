@@ -2,11 +2,11 @@
 
 With this script, you will be able to turn off your pihole adblocker for a limited time if you press the WPS button on your OpenWRT Fritz!Box 4040.
 The info led will then blink green if your pihole was temporarily deactivated. If it fails, it will blink red.
-This script can be very handy for blocked websites that you wnat to visit once.
+This script can be very handy for blocked websites that you want to visit once.
 
 ### Installation
-To install this script, you first need to remove all triggers assigned to you info led in luci.
-Go to System -> LED Configuration and delete all actions that are using the green or red info led.
+To install this script, you first need to remove all triggers assigned to you info led in Luci.
+Go to System -> LED Configuration and delete all actions that are using the green/amber or red info led.
 
 After that, you have to properly configure your buttons.
 Follow the steps "Preliminary steps" and "Using Atheros' 00-button + UCI" in this tutorial:
