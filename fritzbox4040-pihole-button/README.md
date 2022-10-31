@@ -21,5 +21,6 @@ uci set system.@button[0].action="pressed"
 uci set system.@button[0].handler="ash /root/wps-button-press.ash"
 uci commit system
 ```
-Place the wps-button-press.ash script in your root folder (or wherever you want, but make sure to change the path then) and reboot your device.
-That's it!
+Place the wps-button-press.ash script in your root folder (or wherever you want, but make sure to change the path then).
+Edit the IP/Hostname and the API-Key of your pihole. you may also change the time the pihole is deactivated.
+Reboot your device and you are done! :)
